@@ -9,8 +9,8 @@ namespace UniversiteNotHesaplama
 {
     class Islem
     {
-        ArrayList krediArray = new ArrayList();
-        ArrayList notlar = new ArrayList();
+        List<int> krediArray = new List<int>();
+        List<double> notlar = new List<double>();
         public void NotAl(int vize, int final, int krediDeger, out double not, out double katSayi, out string katSayiHarf)
         {
             not = vize * 0.4 + final * 0.6;

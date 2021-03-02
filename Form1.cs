@@ -15,7 +15,7 @@ namespace UniversiteNotHesaplama
         public Form1()
         {
             InitializeComponent();
-        }//
+        }
         Islem IS = new Islem();
         private void button2_Click(object sender, EventArgs e)
         {
@@ -26,8 +26,6 @@ namespace UniversiteNotHesaplama
             kredi = Convert.ToInt32(nudKredi.Value);
             vize = Convert.ToInt32(nudVize.Value);
             final = Convert.ToInt32(nudFinal.Value);
-
-
 
             IS.NotAl(vize, final, kredi, out not, out katsayi, out katHarf);
 
